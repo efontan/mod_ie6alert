@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+	<name>IE6Alert! Module</name>
+	<author>Emmanuel Fontan</author>
+	<authorEmail>fontanemmanuel@gmail.com</authorEmail>
+	<authorUrl>www.el-golem.com.ar</authorUrl>
+	<creationDate></creationDate>
+	<license>GNU General Public License v3.0 - http://www.gnu.org/licenses/</license>
+	<version>2.2</version>
+	
+	<description>Show a alert message when the user open the site with Internet Explorer 6 and show links to download the most modern browsers.
+	</description>
+	
+	<files>
+        <filename module="mod_ie6alert">mod_ie6alert.php</filename>
+		<filename>helper.php</filename>
+		<filename>LICENSE.php</filename>
+        <filename>index.html</filename>
+		<folder>tmpl/</folder>
+		<folder>images/</folder>
+		<folder>css/</folder>
+    </files>
+	
+	<languages>
+		<language tag="es-ES">es-ES.mod_ie6alert.ini</language>
+		<language tag="en-GB">en-GB.mod_ie6alert.ini</language>
+	</languages>
+	
+	<params>	
+		<param name="message" type="textarea" size="50" default="" 
+			label="Customised message (optional)" rows="5" cols="50" 
+			description="Message to show in the textbox  (you can use html tags like br, strong,etc). If leave this on blank, then the module display a default message. "/>
+			
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="mini_msje_on" type="radio" default="yes" label="Enable Mini-Message: " description="Show a simple message.">
+			<option value="yes">Enable</option>
+			<option value="no">Disable</option>
+		</param>
+		
+		<param name="mini_msje" type="textarea" size="50" default="" 
+			label="Mini-Message (optional)" rows="5" cols="50" 
+			description="Message to show in the textbox  (you can use html tags like br, strong,etc). If leave this on blank, then the module display a default message. "/>
+		
+	</params>
+		
+</install>

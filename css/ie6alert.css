@@ -1,0 +1,80 @@
+/**
+ * IE6Alert! Module
+ *
+ * @package ElGolem
+ * @subpackage mod_ie6alert
+ * @version   2.2 - 29/10/2010
+ * @author    Emmanuel Fontan
+ * @copyright (C) 2010 Emmanuel Fontan (email : fontanemmanel@gmail.com)
+ *
+ * Some icons by http://dryicons.com
+ *
+ *
+ * @license		GNU/GPL, see LICENSE.php
+ * This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see http://www.gnu.org/licenses/.
+ *
+ *
+ */
+ 
+.ie6alert_text_right {
+	float:right !important;
+	display:inline !important;
+}
+
+.ie6alert_hidden {
+	display:none !important;
+}
+
+.ie6alert {
+	background:#F7F763;
+	font-size:96%;
+	color:#000;
+	line-height:1.2;
+	width:99%;
+	padding:5px 5px 0px 5px ;
+	margin:15px 0;
+	overflow:hidden;
+	border:1px solid #FFCC66;
+}
+	
+	.ie6alert .ie_message{
+		width:78%;
+	}
+	
+	.ie6alert a {
+		color:#396074;
+	}
+	
+	.ie6alert .ie_citation {
+		font-size:85% !important;
+		color:#212121 !important;
+		overflow:hidden;
+	}
+
+	.ie6alert .ie_links {
+		width:100%;
+		padding:0px;
+	}
+	
+		.ie6alert .ie_links ul {
+			list-style:none !important;
+			width:100% !important;
+			margin:20px auto 0px auto !important;
+		}
+
+		.ie6alert .ie_links li {
+			display:inline !important;
+			margin-left:30px !important;
+		}
+		
