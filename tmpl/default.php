@@ -7,7 +7,7 @@
  * @subpackage mod_ie6alert
  * @version   2.0 - 29/10/2010
  * @author    Emmanuel Fontan
- * @copyright (C) 2010 Emmanuel Fontan (email : fontanemmanel@gmail.com)
+ * @copyright (C) 2010 Emmanuel Fontan
  *
  * Some icons by http://dryicons.com
  *
